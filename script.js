@@ -1,10 +1,2 @@
-function changeBackgroundColor() {
-    var body = document.getElementsByTagName("body")[0];
-    var colors = ["blue", "light-blue", "dark-blue"];
-    var currentColor = body.className;
-
-    var index = (colors.indexOf(currentColor) + 1) % colors.length;
-    body.className = colors[index];
-}
-
-setInterval(changeBackgroundColor, 5000);
+// Ce fichier est vide car l'animation est entièrement gérée en CSS.
+// Cependant, vous pouvez l'utiliser pour d'autres fonctionnalités JavaScript sur votre site.
