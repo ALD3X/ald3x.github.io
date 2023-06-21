@@ -16,19 +16,6 @@
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: #fff;
-    animation: loaderAnimation 1s ease-in-out infinite;
-}
-
-@keyframes loaderAnimation {
-    0% {
-        transform: translate(-50%, -50%) scale(1);
-    }
-    50% {
-        transform: translate(-50%, -50%) scale(0.5);
-    }
-    100% {
-        transform: translate(-50%, -50%) scale(1);
-    }
 }
 
 h1 {
