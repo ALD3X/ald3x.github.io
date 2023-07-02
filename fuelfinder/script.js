@@ -18,7 +18,7 @@ function displayPrices(data) {
         pricesDiv.appendChild(priceElement);
     }
 }
-fetch(proxyUrl2 + apiUrl)
+fetch(apiUrl)
     .then(response => response.text())
     .then(data => {
         var parser = new DOMParser();
@@ -61,7 +61,7 @@ function getCoordinates(location) {
 function searchPrices(location) {
     const apiUrl = `https://api.zagaz.com/list-station.php?api_key=template_milieu&latitude=${location.latitude}&longitude=${location.longitude}&rayon=5&limit=30`;
 
-    fetch(proxyUrl + apiUrl)
+    fetch(apiUrl)
         .then(response => response.text())
         .then(data => {
             var parser = new DOMParser();
