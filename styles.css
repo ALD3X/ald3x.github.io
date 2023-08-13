@@ -1,27 +1,20 @@
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+html { 
+    background: url(https://i.gifer.com/origin/62/628307d4fdd4c63a8dfc615e0d99b728.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 100%;
-    background-color: #000;
 }
-
-.loader {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background-color: #fff;
+body {
+    height: 100%;
 }
 
 h1 {
-    text-align: center;
-    margin-top: 50px;
+    font-family: 'Spirax', cursive;
+    font-size: 1.8em;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
 }
-
   
    
