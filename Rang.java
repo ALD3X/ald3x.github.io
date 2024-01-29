@@ -20,10 +20,26 @@ public enum Rang {
     }
 
     public int getRang(){
-        return this.hauteur;
+        return hauteur;
     }
 
-    public String toString(){
-        return name();
+    @Override
+    public String toString() {
+        if (hauteur >= 2 && hauteur <= 10) {
+            return String.valueOf(hauteur);
+        } else {
+            switch (this) {
+                case VALET:
+                    return "Valet";
+                case DAME:
+                    return "Dame";
+                case ROI:
+                    return "Roi";
+                case AS:
+                    return "As";
+                default:
+                    return "";
+            }
+        }
     }
 }

@@ -7,6 +7,14 @@ public class Carte {
         this.rang = rang;
     }
 
+    public Rang getHauteur() {
+        return rang;
+    }
+
+    public Couleur getCouleur() {
+        return couleur;
+    }
+
     @Override
     public String toString() {
         return rang.toString()+couleur.toString();
@@ -15,5 +23,8 @@ public class Carte {
     public static void main(String[] args) {
         Carte carte1 = new Carte(Couleur.CARREAU,Rang.AS);
         System.out.println(carte1.toString());
+
+        Carte carte2 = new Carte(Couleur.CARREAU,Rang.CINQ);
+        System.out.println(carte2.toString());
     }
 }
