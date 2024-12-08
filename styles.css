@@ -1,21 +1,53 @@
-header {
-    background-color: #0000FF;
-    color: #FFFFFF;
-    padding: 20px;
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgba(8,88,149,255);
+    margin: 0;
+    overflow: hidden;
+
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
 }
 
-main {
-    padding: 20px;
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-body.blue {
-    background-color: #0000FF;
+.me {
+    height: 150px;
+    text-align: center;
 }
 
-body.light-blue {
-    background-color: #66CCFF;
+.link {
+    display: inline-block;
+    text-align: center;
 }
 
-body.dark-blue {
-    background-color: #000099;
+.github {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 550;
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
 }
+
+.github:hover {
+    font-size: 25px;
+    transition: font-size 0.2s ease;
+}
+
+.icon {
+    height: 80px;
+    object-fit: contain;
+}
+  
+  
+
