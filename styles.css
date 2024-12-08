@@ -1,0 +1,21 @@
+header {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+body.blue {
+    background-color: #0000FF;
+}
+
+body.light-blue {
+    background-color: #66CCFF;
+}
+
+body.dark-blue {
+    background-color: #000099;
+}
